@@ -18,7 +18,7 @@ eureka:
       duration: 5
 management:
   security:
-    enabled: false  #disable the spring security on the management endpoints like /env, /refresh etc.
+    enabled: false  
 
 logging:
   level:

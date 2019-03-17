@@ -15,13 +15,13 @@ spring:
  main:
     allow-bean-definition-overriding: true
 
-    # App Properties
+    
 grokonez:
   app:
     jwtSecret: jwtStackrouteSecretKey
     jwtExpiration: 86400
 
-eureka:         #tells about the Eureka server details and its refresh time
+eureka:        
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
@@ -36,7 +36,7 @@ eureka:         #tells about the Eureka server details and its refresh time
 
 management:
     security:
-      enabled: false  #disable the spring security on the management endpoints like /env, /refresh etc.
+      enabled: false  
 logging:
   level:
     com.stckroute.authentication-service: DEBUG
