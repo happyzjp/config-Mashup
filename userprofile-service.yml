@@ -1,11 +1,10 @@
- spring:
+spring:
   data:
    mongodb:
     host: localhost
     port: 27017
     uri: mongodb://localhost/userprofile
-
-eureka:        
+eureka:   
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
@@ -18,8 +17,7 @@ eureka:
       duration: 5
 management:
   security:
-    enabled: false  
-
+    enabled: false
 logging:
   level:
     com.stckroute.userprofile-service: DEBUG
